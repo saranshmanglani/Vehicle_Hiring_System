@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Vehicle Hiring System</title>
+	<link rel="icon" type="image/jpg" href="images/vhs.jpg">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheets/stylesheet(signup).css">
+	<script>
+		function alttry(val)			
+		{			
+			if(document.getElementById(val).value.length==11)			
+				window.location.href="http://localhost/Vehicle Hiring System/signup.php?dlnum="+document.getElementById(val).value;			
+
+		}
+	</script>
+  </head>
+  <body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="http://localhost/Vehicle Hiring System/location.php?lo=hidden&li=visible">Vehicle Hiring System</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://localhost/Vehicle Hiring System/location.php?lo=hidden&li=visible"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li><a href="http://localhost/Vehicle Hiring System/about_us.php?lo=hidden&li=visible"><span class="glyphicon glyphicon-info-sign"></span> About Us</a></li>
+				<li><a href="http://localhost/Vehicle Hiring System/policies.php?lo=hidden&li=visible"><span class="glyphicon glyphicon-ok-circle"></span> Policies</a></li>
+				<li class="active"><a href="http://localhost/Vehicle Hiring System/login.php?pg=h&rs=0&ex=0" id="lgsp" class="visible"><span class="glyphicon glyphicon-log-in"></span> Login/Sign up</a></li>
+			</ul>
+		</div>
+	</nav>
+    <div class="container">
+		<div class="row">
+			<div class="signup-sec">
+				<h2 class="text-center">Sign up</h2>
+				<form class="login-form" method="post" action="http://localhost/Vehicle Hiring System/signup.php">
+					<div class="form-group form-inline">
+							<center><div class="col-md-12">
+								<input type="text" id="dln" class="form-control dlno" autofocus maxlength="11" placeholder="DL Number" oninput="alttry(id)">
+							</div>
+							<div class="col-md-12 frmd">
+								</br>
+								<input type="text" id="fn" class="form-control fname" placeholder="First Name" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="text" id="ln" class="form-control lname" placeholder="Last Name" readonly>
+							</div></center>
+					</div>
+					<div class="form-group">
+						<div class="col-md-10 col-md-offset-1">
+							</br>
+							<input type="text" class="form-control" placeholder="Address" readonly>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-10 col-md-offset-1">
+							</br>
+							<input type="text" id="emad" class="form-control" placeholder="Email Address"  readonly>
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<center><div class="col-md-12">
+							</br>
+							<input type="password" id="pd" class="form-control pwd" placeholder="Password" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="password" id="cpd" class="form-control rpwd" placeholder="Confirm Password" readonly>
+						</div></center>
+					</div>
+					<div class="form-group">
+						<div class="col-md-6 col-md-offset-3">
+							</br>
+							<input type="text" id="cn" class="form-control" placeholder="Contact Number" readonly>
+						</div>
+					</div>
+					<div class="form-check">
+						<div class="col-md-6 col-md-offset-4">
+						</br>
+							<input type="checkbox" id="chkb" class="form-check-input" disabled>
+							<label class="form-check-label">Accept Terms & Conditions</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-6 col-md-offset-3">
+							</br>
+							<input type="submit" id="subbt" class="btn btn-success btn-lg btn-block" disabled value="Sign up">
+							</br>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bootstrap/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
