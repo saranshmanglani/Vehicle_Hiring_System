@@ -1,0 +1,70 @@
+body
+{
+	background:url(../images/bckimg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.container
+{
+	width:30%;
+	margin-top:80px;
+	background:white;
+	border-radius: 10px;
+	box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+	opacity:0.9;
+}
+.login-sec
+{
+	padding: 70px 30px;
+	position:relative;
+}
+.login-sec h2
+{
+	margin-bottom:30px;
+	font-weight:800;
+	font-size:30px;
+	color: #DE6262;
+}
+.login-sec h2:after
+{
+	content:" ";
+	width:100px;
+	height:5px;
+	background:#FEB58A;
+	display:block;
+	margin-top:20px;
+	border-radius:3px;
+	margin-left:auto;
+	margin-right:auto;
+}
+input[type=text],[type=password]
+{
+	border:none;
+	border-bottom: 2px solid;
+}
+.inner-addon
+{
+	position:relative;
+}
+.inner-addon .glyphicon
+{
+	position:absolute;
+	padding: 10px;
+	color:red;
+}
+.right-addon .glyphicon
+{
+	right:0px;
+}
+.right-addon .input
+{
+	padding-right:30px;
+}
+nav
+{
+	opacity:0.6;
+}
+nav:hover
+{
+	opacity:0.8;
+}

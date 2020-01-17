@@ -1,0 +1,56 @@
+body
+{
+	background:url(../images/bckimg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.container
+{
+	width:80%;
+	background:white;
+	margin-top:10px;
+	border-radius: 10px;
+	box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+	opacity:0.9;
+}
+.cardet
+{
+	padding: 30px 30px;
+	max-height:500px;
+	overflow:scroll;
+}
+.panel
+{
+	background:#d3d3d3;
+}
+.panel:hover
+{
+	background:#a9a9a9;
+}
+img
+{
+	width:20%;
+}
+.lb1o
+{
+	margin-left:50px;
+	font-size:18pt;
+	color:black;
+}
+.lb1i
+{
+	font-size:12pt;
+	color:black;
+}
+label
+{
+	color:black;
+}
+nav
+{
+	opacity:0.6;
+}
+nav:hover
+{
+	opacity:0.8;
+}

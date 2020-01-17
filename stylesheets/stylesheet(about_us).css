@@ -1,0 +1,48 @@
+body
+{
+	background:url(../images/bckimg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.container
+{
+	margin-top:120px;
+	width:80%;
+	background:white;
+	border-radius:10px;
+	padding: 20px 30px;
+	position:relative;
+	opacity:0.9;
+}
+.about-us h2
+{
+	margin-top:0px;
+	margin-bottom:30px;
+	font-weight:800;
+	font-size:30px;
+	color: #DE6262;
+}
+.about-us h2:after
+{
+	content:" ";
+	width:100px;
+	height:5px;
+	background:#FEB58A;
+	display:block;
+	margin-top:10px;
+	border-radius:3px;
+	margin-left:auto;
+	margin-right:auto;
+}
+p
+{
+	font-size:13pt;
+}
+nav
+{
+	opacity:0.6;
+}
+nav:hover
+{
+	opacity:0.8;
+}

@@ -1,0 +1,56 @@
+body
+{
+	background:url(../images/bckimg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.container
+{
+	width:80%;
+	margin-top:100px;
+	padding-left:0px;
+	background:white;
+	border-radius: 10px;
+	box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+	opacity:0.9;
+}
+h2
+{
+	margin-bottom:30px;
+	font-weight:800;
+	font-size:30px;
+	color: #DE6262;
+}
+h2:after
+{
+	content:" ";
+	width:300px;
+	height:5px;
+	background:#FEB58A;
+	display:block;
+	margin-top:20px;
+	border-radius:3px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.btn1,.btn2,.btn3, .cont
+{
+	margin-left:2px;
+	border:none;
+	border-bottom:2px solid;
+	border-right:2px solid;
+}
+.cnb
+{
+	margin-top:30px;
+	font-size:20pt;
+}
+.dte, .dlbl, .cvv
+{
+	margin-top:10px;
+	font-size:12pt;
+}
+.cvv
+{
+	width:50px;
+}
